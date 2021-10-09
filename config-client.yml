@@ -24,9 +24,9 @@ spring:
   application:
     name: springcloud-provider01
 
-  eureka:
-    client:
-      serviceUrl: # 服务注册地址
-        defaultZone: http://eureka.server.center8080:8080/eureka/,http://eureka.server.center8078:8078/eureka/,http://eureka.server.center8079:8079/eureka/
+eureka:
+  client:
+    serviceUrl: # 服务注册地址
+      defaultZone: http://eureka.server.center8080:8080/eureka/,http://eureka.server.center8078:8078/eureka/,http://eureka.server.center8079:8079/eureka/
 
 
